@@ -1,16 +1,14 @@
 # RedditSubRedditRecommender
 A recommender application to provide Reddit users links to discussion threads similar to the current discussion thread.
 
-
-reddit_discussion_recommender
 ==============================
-
-A Reddit bot to locate and recommend similar ongoing discussions.
 
 This project includes a installer with automatic setup but I have not shared that in this repository.
 This repo only has source files and if you like to use installer just send me an email.
 
 Below is the description of each main program of this application.
+
+# Main Programs
 
 **Indexer**
 
@@ -37,3 +35,10 @@ Responder processes the request and responds with the proper sub reddit recommen
 	*Take the harmonic mean within each submission
 
 	*Multiply by the log of the count of matched documents per submission
+	
+	
+# Assumptions
+	*Current version of recommender request does not work when the request is made by the same person who created the post.
+	*The Bot will not work if the post has been deleted/archived concurrently right after you entered the request.
+	
+
