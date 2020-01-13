@@ -14,9 +14,9 @@ Below is the description of each main program of this application.
 
 An inverted index is used to build the logic to scoring and recommending sub reddits. Whoosh, psaw and pushshift.io have been used to build up the logic.
 
-Whoosh is a pure Python search engine library which contains more sophisticated helper functions for a ranking system.Â It defaults to Okapi BM 25.Â It supports gradual, continual, updates, etc.Â Furthermore, it allows to store things with the inverted index as well as index multiple “fields” of a document.
+Whoosh is a pure Python search engine library which contains more sophisticated helper functions for a ranking system. It defaults to Okapi BM 25. It supports gradual, continual, updates, etc. Furthermore, it allows to store things with the inverted index as well as index multiple “fields” of a document.
 
-Using psaw and pushshift.io created another benefit or option.Â Rather than starting with nothing and building the inverted index as new comments roll on in, psaw.pushshift.io created the option to specify a start time in the recent past.Â The indexer will then start pulling in all the comments from that moment in time.
+Using psaw and pushshift.io created another benefit or option. Rather than starting with nothing and building the inverted index as new comments roll on in, psaw.pushshift.io created the option to specify a start time in the recent past. The indexer will then start pulling in all the comments from that moment in time.
 
 **Watcher**
 
